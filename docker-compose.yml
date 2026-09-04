@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: devopss
+    container_name: devopss_container
+    ports:
+      - "3000:3000"
